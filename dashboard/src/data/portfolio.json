@@ -1,0 +1,216 @@
+{
+  "meta": {
+    "title": "Credit Risk & Lending Portfolio Analytics",
+    "targetDefinition": "Client experienced payment difficulty under the dataset's late-payment definition.",
+    "minimumSegmentSize": 500,
+    "monetaryUnit": "Source currency units (dataset does not identify a currency)"
+  },
+  "overview": {
+    "applications": 307511,
+    "payment_difficulty_count": 24825,
+    "payment_difficulty_rate": 0.08072881945686496,
+    "total_credit": 184207084195.5,
+    "median_credit_to_income": 3.265066666666667,
+    "prior_applications": 1413701,
+    "prior_approval_rate": 0.6267937845414271,
+    "linkedHistoryApplicants": 291057,
+    "linkedHistoryRate": 0.9464929709831518,
+    "medianAnnuityToIncome": 0.1628333333333333
+  },
+  "segments": {
+    "income": [
+      {
+        "label": "Working",
+        "applications": 158774,
+        "difficultyCount": 15224,
+        "difficultyRate": 0.09588471664126369,
+        "ciLow": 0.09444619716698861,
+        "ciHigh": 0.09734279110201428,
+        "riskIndex": 1.1877383725708617
+      },
+      {
+        "label": "Commercial associate",
+        "applications": 71617,
+        "difficultyCount": 5360,
+        "difficultyRate": 0.07484256531270508,
+        "ciLow": 0.07293807169820368,
+        "ciHigh": 0.0767926681315835,
+        "riskIndex": 0.9270860866817826
+      },
+      {
+        "label": "State servant",
+        "applications": 21703,
+        "difficultyCount": 1249,
+        "difficultyRate": 0.05754964751416855,
+        "ciLow": 0.05452876946171927,
+        "ciHigh": 0.06072713216148141,
+        "riskIndex": 0.7128761191028997
+      },
+      {
+        "label": "Pensioner",
+        "applications": 55362,
+        "difficultyCount": 2982,
+        "difficultyRate": 0.053863660994906255,
+        "ciLow": 0.05201391984511963,
+        "ciHigh": 0.05577531314650891,
+        "riskIndex": 0.6672172510052212
+      }
+    ],
+    "contract": [
+      {
+        "label": "Cash loans",
+        "applications": 278232,
+        "difficultyCount": 23221,
+        "difficultyRate": 0.08345912763449208,
+        "ciLow": 0.08243717214460385,
+        "ciHigh": 0.08449258547724815,
+        "riskIndex": 1.0338207370799715
+      },
+      {
+        "label": "Revolving loans",
+        "applications": 29279,
+        "difficultyCount": 1604,
+        "difficultyRate": 0.05478329177909082,
+        "ciLow": 0.052234656244150725,
+        "ciHigh": 0.05744874278772466,
+        "riskIndex": 0.6786088555198387
+      }
+    ],
+    "age": [
+      {
+        "label": "20\u201329",
+        "applications": 44738,
+        "difficultyCount": 5132,
+        "difficultyRate": 0.1147123250927623,
+        "ciLow": 0.11179233710829248,
+        "ciHigh": 0.11769847580451347,
+        "riskIndex": 1.420958783548859
+      },
+      {
+        "label": "30\u201339",
+        "applications": 82390,
+        "difficultyCount": 7891,
+        "difficultyRate": 0.09577618643039204,
+        "ciLow": 0.09378550310410573,
+        "ciHigh": 0.0978045635010664,
+        "riskIndex": 1.186393992563798
+      },
+      {
+        "label": "40\u201349",
+        "applications": 76602,
+        "difficultyCount": 5864,
+        "difficultyRate": 0.07655152606981541,
+        "ciLow": 0.07468982305674092,
+        "ciHigh": 0.07845569894219759,
+        "riskIndex": 0.9482552400102722
+      },
+      {
+        "label": "50\u201359",
+        "applications": 68116,
+        "difficultyCount": 4184,
+        "difficultyRate": 0.061424628574784194,
+        "ciLow": 0.05964607032672955,
+        "ciHigh": 0.06325265350118964,
+        "riskIndex": 0.7608760909430197
+      },
+      {
+        "label": "60\u201369",
+        "applications": 35665,
+        "difficultyCount": 1754,
+        "difficultyRate": 0.049179868218141035,
+        "ciLow": 0.04698373400227078,
+        "ciHigh": 0.05147311075267635,
+        "riskIndex": 0.6091984070746734
+      }
+    ],
+    "affordability": [
+      {
+        "label": "2\u20134\u00d7",
+        "applications": 116620,
+        "difficultyCount": 10223,
+        "difficultyRate": 0.08766077859715314,
+        "ciLow": 0.08605121189508656,
+        "ciHigh": 0.08929751028248917,
+        "riskIndex": 1.0858672180136621
+      },
+      {
+        "label": "4\u20136\u00d7",
+        "applications": 63756,
+        "difficultyCount": 5228,
+        "difficultyRate": 0.08200012547838635,
+        "ciLow": 0.0798954978278594,
+        "ciHigh": 0.08415512302562778,
+        "riskIndex": 1.0157478584485022
+      },
+      {
+        "label": "Under 2\u00d7",
+        "applications": 71036,
+        "difficultyCount": 5317,
+        "difficultyRate": 0.07484937214933274,
+        "ciLow": 0.07293711753865026,
+        "ciHigh": 0.07680760824350857,
+        "riskIndex": 0.9271704039884576
+      },
+      {
+        "label": "6\u20138\u00d7",
+        "applications": 31243,
+        "difficultyCount": 2306,
+        "difficultyRate": 0.07380853311141695,
+        "ciLow": 0.07096140063273852,
+        "ciHigh": 0.07676046063851392,
+        "riskIndex": 0.9142773746475303
+      },
+      {
+        "label": "8\u00d7 and above",
+        "applications": 24856,
+        "difficultyCount": 1751,
+        "difficultyRate": 0.07044576762149984,
+        "ciLow": 0.06733039538415593,
+        "ciHigh": 0.07369389818978223,
+        "riskIndex": 0.87262229393978
+      }
+    ]
+  },
+  "priorOutcomes": [
+    {
+      "label": "Approved",
+      "count": 886099,
+      "share": 0.6267937845414271
+    },
+    {
+      "label": "Refused",
+      "count": 245390,
+      "share": 0.17357984467719836
+    },
+    {
+      "label": "Cancelled / unused",
+      "count": 282212,
+      "share": 0.19962637078137457
+    }
+  ],
+  "quality": {
+    "rawApplicationColumns": 122,
+    "analyticalModelColumns": 25,
+    "employmentSentinelCount": 55374,
+    "unknownGenderCount": 4,
+    "occupationMissingRate": 0.31345545362604915,
+    "creditToIncomeP99": 13.027280298009483
+  },
+  "insights": [
+    {
+      "eyebrow": "Portfolio baseline",
+      "title": "8.1% of current applications show payment difficulty",
+      "body": "This is a descriptive outcome rate, not a probability of default or a causal estimate."
+    },
+    {
+      "eyebrow": "Highest stable segment",
+      "title": "Working applicants index at 1.19\u00d7 the baseline",
+      "body": "The estimate is based on 158,774 applications; segments below 500 are excluded."
+    },
+    {
+      "eyebrow": "History coverage",
+      "title": "94.6% of applicants have linked prior decisions",
+      "body": "Prior outcomes add context, but they may also encode earlier policy choices and should not be treated as neutral ground truth."
+    }
+  ]
+}
