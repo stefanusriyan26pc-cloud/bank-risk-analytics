@@ -87,7 +87,7 @@ The dashboard is configured as a static Next.js export. Every push to `main`
 runs tests, lint, and build checks before deploying `dashboard/out` through the
 GitHub Pages environment.
 
-The organization site is published at `https://credit-risk-analytics.github.io`.
+The organization site is published at `https://desta-data-analytics.github.io`.
 The build automatically uses a repository base path for project Pages and the
 root path for account or organization Pages.
 
