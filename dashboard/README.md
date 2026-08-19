@@ -21,4 +21,5 @@ npm run build
 ```
 
 The generated site is written to `out/`. In GitHub Actions, `basePath` and
-`assetPrefix` are derived from `GITHUB_REPOSITORY` for project Pages URLs.
+`assetPrefix` are derived from `GITHUB_REPOSITORY`: project Pages use their
+repository path, while account and organization Pages are served from `/`.

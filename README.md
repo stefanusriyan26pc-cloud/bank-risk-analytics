@@ -87,9 +87,9 @@ The dashboard is configured as a static Next.js export. Every push to `main`
 runs tests, lint, and build checks before deploying `dashboard/out` through the
 GitHub Pages environment.
 
-After creating the repository, open **Settings → Pages** and ensure the source
-is set to **GitHub Actions**. Project Pages automatically use the repository
-base path during CI while local development remains available at `/`.
+The organization site is published at `https://credit-risk-analytics.github.io`.
+The build automatically uses a repository base path for project Pages and the
+root path for account or organization Pages.
 
 ## Core definitions
 
