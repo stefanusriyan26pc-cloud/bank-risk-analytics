@@ -12,6 +12,17 @@ repay?
 This project is descriptive decision support. It is **not** an approval model and
 does not recommend automated eligibility rules.
 
+## Data source
+
+The analysis uses the [Risk Analytics in Banking](https://www.kaggle.com/datasets/sabarostami/risk-analytics-in-banking)
+dataset published by Sabar Ostami on Kaggle. The primary files are
+`application_data.csv`, containing current application information, and
+`previous_application.csv`, containing linked historical lending decisions.
+
+The source dataset is used for educational portfolio analysis. Its monetary
+currency and observation date are not identified, so this project does not make
+currency-conversion or time-trend claims.
+
 ## What makes the analysis trustworthy
 
 - One-row-per-applicant analytical model with validated keys
